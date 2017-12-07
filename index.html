@@ -1,301 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme The Band</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="main.css">
-  
-</head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#Home">Logo</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#video">Video</a></li>
-        <li><a href="#todo">Things to do </a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="images/tower.jpg" alt="tower" width="1200" height="700">
-        <div class="carousel-caption">
-          <h3>EIFFEL TOWER</h3>
-          <p>The beautiful view of the tower.</p>
-        </div>      
-      </div>
-
-      <div class="item">
-        <img src="images/pyramid.jpg" alt="Louvre Museum" width="1200" height="700">
-        <div class="carousel-caption">
-          <h3>Paris</h3>
-          <p>Thank you, Paris- A night I won't forget.</p>
-        </div>      
-      </div>
-    
-      <div class="item">
-        <img src="images/salads.jpg" alt="Los Angeles" width="1200" height="700">
-        <div class="carousel-caption">
-          <h3>Cuisine Francaise</h3>
-          <p>The French cuisine will always be my favorite, Can't get enough of it!</p>
-        </div>      
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-</div>
+---
+layout: default
+title: the tour of paris
+---
+<!-- Flex Slider -->
+<section id="hero">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <h3>The Eiffel tower! The view is great</h3>
+        <img src="/images/eiffel.jpg" class="add-object-fit" alt="eiffel tower"/>
+      </li>
+      <li>
+        <h3>The Amazing Louvre Museum</h3>
+        <img src="/images/louvre.jpg" class="add-object-fit"/>
+      </li>
+      <li>
+        <h3>The French cuisine will always be my favorite</h3>
+        <img src="images/salads.jpg" class="add-object-fit"/>
+      </li>
+    </ul><!-- .slides -->
+  </div><!-- .flexslider -->
+</section><!-- #section -->
 
 <!-- Container (The Band Section) -->
-<div id="band" class="container text-center">
-  <h3>THE TOUR OF FRANCE</h3>
-  <p><em>I LOVE PARIS!</em></p>
-  <p>The city of lights’,‘the city of Romance’,‘the culinary capital of the world’,all these are just names Paris, France is known by. Over seven million people visit each year.Paris,   France is one of the most amazing places you will ever visit. There are so many phenomenal things to see and do you’ll never get bored.</p>
-              <p>The most Prominent landmark in Paris would have to be the Eiffel Tower. More the seven million people visit the Eiffel Tower each year. For a small fee you can ride the elevator to the top. The view from the top is spectacular. If you want some exercise you can take the stairs that go from the ground to the second platform. Many People like to go to the Eiffel Tower at night because it is all light up.At night when it is lit up it looks an attractive golden color, instead if the dark brown it is painted. The Eiffel Tower took two years to build; it was finished on March 31, 1889. The Eiffel Tower was originally built for the world exhibition in 1889, but today it is used as a radio transmission tower and a tourist attraction. The Eiffel Tower is named after Gustave Eiffel, the main contractor and architect.</p>
-              <p>Paris has tons of museums as well Art galleries some of the well known ones are the Louvre and Musee de L’Air et de L’espace,Musee de L’orangerie. The Louvre was originally a royal palace but became a museum in 1793. Outside the museum is a substantial glass pyramid. Inside there are heaps exhibits including artifacts from Egypt, Greece, and Rome.Paris is the culinary capital of the world and is known worldwide for its gourmet cuisine Some of the best places to eat in Paris include Le Cinq, Taillevent, Restruant Pierre Gagnaire, and L’Astrance. Le Cinq serves classic and contemporary dishes. Restruant Pierre Gagnaire is famous for their innovative dishes that will please both your eyes and your taste buds. L’Astrance is well known in the culinary world for their surprise menu.once you've tasted the French cuisine you'd never get enough of it.so i chose Paris because it's of the most beautiful cities in the world you can visit.</p>     
-  <br>
+<section class="grid-center">
+<div id="intro" class="container text-center col-8">
+  <h3 class"titles">The Tour in Paris</h3>
+    <h4>I LOVE PARIS!</h4>
+    <p class="black">"The city of lights, the city of romance," "the culinary capital of the world," this is what Paris is known for. Over seven million people visit each year.Paris, is one of the most amazing places you will ever visit. There are so many phenomenal things to see and do. You will never get bored!</p>
+    <p class="black">The most prominent landmark in Paris is the Eiffel Tower. More than seven million people visit the Eiffel Tower each year. For a small fee you can ride the elevator to the top. The view from the top is spectacular. If you want some exercise you can take the stairs that go from the ground to the second platform. Many people like to go to the Eiffel Tower at night because it comes alive with millions of twinkling lights. At night when lit, it is an attractive golden color. The Eiffel Tower took two years to build; it was finished on March 31, 1889. The Eiffel Tower was originally built for the world exhibition in 1889, but today it is used as a radio transmission tower and a tourist attraction. The Eiffel Tower is named after Gustave Eiffel, the main contractor and architect.</p>
+    <p class="black">Paris has many museums and Art galleries some of the well known ones are the Louvre, Musee de L'Air et de L'espace and the Musee de L'Orangerie. The Louvre was originally a royal palace but became a museum in 1793. Outside the museum is a substantial glass pyramid. Inside there are many exhibits including artifacts from Egypt, Greece, and Rome. Paris is the culinary capital of the world and is known worldwide for its gourmet cuisine. Some of the best places to eat in Paris include Le Cinq, Taillevent, Restruant Pierre Gagnaire, and L’Astrance. Le Cinq serves classic and contemporary dishes. Restruant Pierre Gagnaire is famous for their innovative dishes that will please both your eyes and your taste buds. L’Astrance is well known in the culinary world for their surprise menu. Once you've tasted the French cuisine you will never get enough of it. I chose to tell you about Paris because it's of the most beautiful cities in the world to visit.</p>     
   </div>
   </section><!--intro section ends here-->
     <section id="todo"><!-- Things to do starts here-->
-      <h2 style="text-align:center; margin-top:-50px; font-size:70px;">Things To Do</h2>
-      <div class="grid-spaceAround" style="margin-top:50px;"><!-- This div starts the first grid-->
-        <div class="col-md-4"><!-- We have 3 divs inside of each grid this is div 1-->
-          <h3>RESTAURANTS</h3>
-          <img src="images/lunch.jpg" alt="" height="200" width="200">
-          <p>Born and raised in France, a lifetime of travel has only made me yearn more for the food of my early years. For me, French cooking is as much about comfort as it is about sophistication and quality.
+      <h2>Things To Do</h2>
+      <div class="grid-spaceAround"><!-- This div starts the first grid-->
+        
+        <div class="col-3"><!-- This is div 2-->
+          <h3>Museums</h3>
+          <div class="todoImg1 todoImage"></div>
+          <p class="baby black">Every trip to the capital deserves a visit to the Louvre, to discover the wealth of treasures it contains.The Louvre is the world's largest art museum and considered a historic monument in Paris. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement. If you only have time to visit one museum in Paris, it should undoubtedly be the Louvre.</p>
+        </div><!-- closes div 2-->
+          <div class="col-3"><!-- We have 3 divs inside of each grid this is div 1-->
+          <h3>Restaurants</h3>
+          <div class="todoImg2 todoImage"></div>
+          <p class="baby black">Born and raised in France, a lifetime of travel has only made me yearn for the food of my early years. For me, French cooking is as much about comfort as it is about sophistication and quality.
           Always striving for authenticity, or to capture a rarely demonstrated culinary technique…I continue to curate my favourite French food for you. Bon appetit!</p>
         </div><!-- closes div 1-->
-        <div class="col-md-4"><!-- This is div 2-->
-          <h3>MUSEUMS</h3>
-          <img src="images/pyramid.jpg" alt="" height="200" width="200">
-          <p>Every trip to the capital deserves a visit to the Louvre to discover the wealth of treasures it contains.The Louvre or the Louvre Museum is the world's largest art museum and a historic monument in Paris, France. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.If you only had time to visit one museum in Paris, it should undoubtedly be the Louvre Museum. That's because the Louvre is not only widely considered to be one of the best art museums in Europe, but one of the best in the world as well.</p>
+
+        <div class="col-3"><!-- This is div 2-->
+          <h3>Nature</h3>
+          <div class="todoImg3 todoImage"></div>
+          <p class="baby black">Although its luxury shops, nightlife, casinos, and high-end restaurants give Cannes a feeling of exclusivity, this classic French Riviera city has alternatives to suit every budget. Located in the Alpes-Maritimes department, Cannes is home to an immense marina with yachts and superyachts for the rich and famous. Stroll, shop, eat in one of the little restaurants, or just mingle with the locals. Plan your visit to Cannes! </p>
         </div><!-- closes div 2-->
-
-        
-
-          <div class="col-md-4"><!-- This is div 2-->
-          <h3>NATURE</h3>
-          <img src="images/cannes.jpg" alt="" height="200" width="200">
-          <p>Although its luxury shops, nightlife, casinos, and high-end restaurants give Cannes a feeling of exclusivity, this classic French Riviera city has alternatives to suit every budget. Located in the Alpes-Maritimes department, Cannes is home to an immense marina with yachts and superyachts for the rich and famous.Stroll, shop, eat in one of the little restaurants, or just mingle with the locals. Plan your visit to Vieille  </p>
+      </div><!-- This div closes the first grid-->
+      <div class="grid-spaceAround">
+        <div class="col-3"><!-- This is div 1-->
+          <h3>Shopping</h3>
+          <div class="todoImg4 todoImage"></div>
+          <p class="baby black">Paris is one of the finest cities in the world for shopping. I've put together a list of all of my favorite streets and stores that you won't want to miss during your visit.</p>
+        </div><!-- closes div 1-->
+        <div class="col-3"><!-- This is div 2-->
+          <h3>Disneyland</h3>
+          <div class="todoImg5 todoImage"></div>
+          <p class="baby black">It's the most wonderful time of the year!
+           With the kids jingle-belling
+           And everyone telling you
+           Be of good cheer
+           Disney will make your time in paris wonderful!</p>
         </div><!-- closes div 2-->
-
-
-
-          <div class="col-md-4"><!-- This is div 2-->
-          <h3>BOUTIQUES</h3>
-          <img src="images/boutiques.jpg" alt="" height="200" width="200">
-          <p>Paris is one of the finest cities in the world for shopping, and I've gathered together all of my favorite streets and stores that you won't want to miss during your holiday. With these insider tips you'll find all the best spots, from the iconic shopping destinations to specialty boutiques locals love. </p>
-        </div><!-- closes div 2-->
-
-
-
-          <div class="col-md-4"><!-- This is div 2-->
-          <h3>MUSEUMS</h3>
-          <img src="images/pyramid.jpg" alt="" height="200" width="200">
-          <p>vhgncvhnxfcghvxdcfghvsxdhfc</p>
-        </div><!-- closes div 2-->
-
-        
-
-          <div class="col-md-4"><!-- This is div 2-->
-          <h3>MUSEUMS</h3>
-          <img src="images/pyramid.jpg" alt="" height="200" width="200">
-          <p>vhgncvhnxfcghvxdcfghvsxdhfc</p>
-        </div><!-- closes div 2-->
-
-
-
-
-
-
-
-
-
-            
-           <p></p>
-        </div><!--closes div 3-->
+        <div class="col-3"><!-- This is div 3-->
+          <h3>Seine River</h3>
+          <div class="todoImg6 todoImage"></div>
+          <p class="baby black">Does it get any more romantic than a boat cruise down the Seine? Taking in the sights and drinking champagne? Pro tip: You can get incredible Eiffel Tower photos from the river.</p>
+        </div><!-- closes div 3-->
       </div><!--this div closes the second grid-->
     </section><!-- Things to do ends here-->
-
-    <div class="col-md-12">
-             <iframe src="https://www.youtube.com/embed/AQ6GmpMu5L8" frameborder="0" allowfullscreen></iframe>
-
-    </div>
-
-     <div class="col-md-12">
-       <h1 style="text-align:center">amanda's paragraph</h1>
-       <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.
-</p>
-       </div>
-
-
-  
-    <section id="gallery"><!-- gallery section starts here-->
+<section id="video">    
+  <div>
+    <iframe src="https://www.youtube.com/embed/AQ6GmpMu5L8" frameborder="0" allowfullscreen></iframe>
+  </div>
+</section>
+<section class="grid-center afterVid">
+     <div class="col-8">
+       <p class="loveblack">There is a lot to explore in Paris, with this website my goal is to make you fall in love with this great city as much as I have. Below are a collection of pictures to show off the beauty of Paris!</p>
+     </div>
+</section>
+   <section id="gallery"><!-- gallery section starts here-->
       <div class="grid-spaceAround"><!--this div opens the first grid-->
-        <div class="col-md-12"><!--this is the first div-->
-          <img src="images/burger.jpg" height="300" width="300" alt="">
-          <img src="images/burger.jpg" height="300" width="300" alt="">
-          <img src="images/burger.jpg" height="300" width="300" alt="">
-          <img src="images/burger.jpg" height="300" width="300" alt="">
-          <img src="images/burger.jpg" height="300" width="300" alt="">
-          <img src="images/burger.jpg" height="300" width="300" alt="">
-          <img src="images/burger.jpg" height="300" width="300" alt="">
-          <img src="images/burger.jpg" height="300" width="300" alt="">
-          <p></p>
-        
-
-
-    
-    <footer>
-     <div class="container">
-       <div class="row">
-       
-                <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-6 col-xs-12">
-                    <ul class="footer-list">
-                         <span>Adress</span>    
-                         <li>
-                            <p>Amanda Teta Mutabazi</p>
-                          </li>
-                          <li>
-                          <p>Kigali-Rwanda</p>
-                          </li>   
-                          <li>
-                            <p>+250781159072</p>
-                          </li>
-                               
-                          <li>
-                            <p>iyadedebrio23@gmail.com</p>
-                          </li>
-                     </ul>
-                </div>
-                 
-                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                    <ul class="footer-list">
-                        <span>Blogs</span>    
-                        <li>
-                            <a href="#">Blog 1</a>
-                        </li>
-                               
-                        <li>
-                            <a href="#">Blog 2</a>
-                        </li>
-                               
-                        <li>
-                           <a href="#">Blog 3</a>
-                        </li>
-                        
-                     </ul>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                    <ul class="footer-list">
-                        <span>Support</span>    
-                        <li>
-                            <a href="#">Link 1</a>
-                        </li>
-                               
-                        <li>
-                            <a href="#">Link 2</a>
-                        </li>
-                               
-                        <li>
-                           <a href="#">Link 3</a>
-                        </li>
-                        
-                     </ul>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                    <ul class="footer-list">
-                        <span>Menu</span>    
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                               
-                        <li>
-                             <a href="#">About</a>
-                        </li>
-                               
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                               
-                        <li>
-                             <a href="#">Gallery </a>
-                        </li>
-                               
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-           
-                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-                   <ul class="social">
-                        <span>Social</span>    
-                        <li>
-                            <a href="https://www.facebook.com/mutabaziteta.amanda"><i class="fa fa-facebook-official" aria-hidden="true">Facebook</i></a>
-
-                        
-                        <li>
-                           <a href="https://www.instagram.com/accro_au_cafe/?hl=en"> <i class="fa fa-instagram" aria-hidden="true">Instagram</i></a>
-
-                        </li>
-                                
-                          <li>
-                               <a href="https://twitter.com/"> <i class="fa fa-twitter" aria-hidden="true">Twitter</i></a>
-
-                               </li>
-                      
-                      </ul>
-               </div>
-           
-           
-           </div> 
+        <div class="col-3 custom-grid">
+          <div class="galleryImage img1">
+            <p class="imagedescription">Time to Shop..<p>
+          </div>
         </div>
-    </footer>
-<!-- Container (TOUR Section) -->
-
-
-
-</body>
-</html>
+        <div class="col-3 custom-grid mine">
+           <div class="galleryImage img2">
+             <p class="imagedescription">Yummy,Yummy</p>
+           </div>
+        </div>
+        <div class="col-3 custom-grid mine">
+           <div class="galleryImage img3">
+             <p class="imagedescription">Romantic Moments in Paris</p>
+           </div>
+        </div>
+      </div>
+       <div class="grid-spaceAround"><!--this div opens the second grid-->
+        <div class="col-3 custom-grid mine">
+           <div class="galleryImage img4">
+             <p class="imagedescription">Hot Summer</p>
+           </div>
+        </div>
+        <div class="col-3 custom-grid mine">
+          <div class="galleryImage img5">
+             <p class="imagedescription">Fields of Lavender</p>
+          </div>
+        </div>
+        <div class="col-3 custom-grid mine">
+           <div class="galleryImage img6">
+              <p class="imagedescription">View from Above!</p>
+           </div>
+        </div>
+      </div>
+ </section>        
+      

@@ -1,0 +1,294 @@
+
+  * {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+  }
+  .iconcolor{
+    color:'white';
+  }
+
+  .logo{
+    max-width: 100px;
+    height:50%;
+    width:60%;
+    border-radius: 100px;
+  }
+
+    h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+      text-align: center;
+  }
+  }
+  h1, h2, h3, h4, h5, h6{
+  /*font-family I want for headings*/
+  /*letter-spacing*/
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: black;
+    text-align: center;
+}
+#todo>h2{
+  text-align: center;
+  color: black;
+}
+#todo>h3{
+  font-family: 'Lobster', cursive;
+
+}
+
+  
+  body{ 
+  /*font-family that will apply to entire website*/
+  /*line-height *I ususally start with 1.5*/
+    color:#5a5858;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  img{
+    max-width: 100%;
+    border-radius: 25px;
+  }
+
+    /*header styles*/
+header{
+  height:76px;
+    font-style: oblique;
+  }
+nav{
+    text-align: center;
+}
+#home>nav{
+  background-color:#73bfdc;
+}
+.spacin-top{
+  padding-top:7px;
+}
+
+nav a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size:15px;
+    color: #101010;
+  }
+ .mob-show{
+  display:none;
+ }
+/* SLIDER SECTION */
+#hero{
+  margin: 0 auto;
+  max-width: 100%;
+  background-color: #000;
+}
+#hero .slides li{
+  position: relative;
+  height: 80vh;
+}
+#hero .slides li h3{
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  color:#fff;
+  text-align: center;
+  z-index: 2;
+  font-size: 32px;
+  font-family: serif;
+}
+#hero .slides li img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 0;
+}
+
+/* HELPERS */
+.add-object-fit{
+  object-fit: cover;
+}
+
+/*To Do Section*/
+.todoImage{
+  width:100%;
+  height:300px;
+  background-size:cover;
+  background-position:center;
+}
+.todoImg1{
+  background-image: url('../images/louvremuseum.jpg');
+}
+.todoImg2{
+ background-image:  url('../images/perfectmeal.jpg');
+}
+.todoImg3{
+  background-image: url('../images/cannes.jpg');
+}
+.todoImg4{
+  background-image: url('../images/fashionista.jpg');
+}
+.todoImg5{
+  background-image: url('../images/mydisney.jpg');
+}
+.todoImg6{
+  background-image: url('../images/greeny.jpg');
+}
+
+/*video section*/
+iframe{
+    width: 100%;
+    height: 70vh;
+}
+ p.baby{
+  margin-top:10%;
+  text-align: justify;
+ }  
+ /*after vid section */
+ .afterVid{
+  padding:2% 0;
+ }  
+
+ /*Gallery Section*/
+ .galleryImage{
+  width:100%;
+  height:300px;
+  background-position: center;
+  background-size: cover;
+ }  
+ .img1{
+  background-image:url('../images/shoppingbags.jpg');
+ }
+ .img2{
+  background-image: url('../images/main.jpg');
+ }
+ .img3{
+  background-image: url('../images/loveparis.jpg');
+ }
+ .img4{
+  background-image: url('../images/summer.jpg');
+ }
+ .img5{
+  background-image: url('../images/black.jpg');
+ }
+ .img6{
+  background-image: url('../images/viewcopy.jpg');
+ }
+ .imagedescription{
+  display:none;
+  height: 100%;
+ }
+ 
+ .galleryImage:hover .imagedescription{
+  display: block;
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+  font-size: 16pt;
+  background-color: rgba(0,0,0,0.5);
+ }
+.black{
+  text-align: justify;
+}
+
+ /*footer*/
+footer{
+    background-color:LavenderBlush;;
+     padding:70px 0px;
+  }
+  .sendbutton{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color:black;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.sendbutton:hover{
+    background-color:grey;
+}
+.facebook{
+  padding-right: 60px;
+  color:black;
+}
+.instagram{
+  padding-right: 60px;
+}
+.facebook>a:hover{
+ color:grey;
+}
+
+.instagram>a:hover{
+ color:grey;
+}
+
+.twitter>a:hover{
+ color:grey;
+}
+#contact>h2{
+  text-align: center;
+  color: black;
+}
+
+
+.twitter>a{
+ color:black;
+}
+.instagram>a{
+ color:black;
+}
+.facebook>a{
+ color:black;
+}
+/*Mobile Nav Styles*/
+/* MOBILE NAV */
+#mobile-navigation{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.96);
+}
+#container.mobile-menu-visible #mobile-navigation{
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* HELPERS */
+.padding{
+  padding: 40px;
+}
+.margin-top-bottom{
+  margin: 40px 0;
+}
+.round-corners{
+  border-radius: 4px;
+}
+.bg-yellow{
+  background-color: #f1c40f;
+}
+.center{
+  text-align: center;
+}
+.animate{
+  transition: all 172ms ease-out;
+}
+.titles{
+  text-align: center;
+}
+/* Media Queries */
+@media all and (max-width:940px) {
+  .mob-hide{
+    display: none;
+  }
+  .mob-show{
+    display:block;
+  }
+
+ }
